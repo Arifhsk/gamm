@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #70c5ce;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#loginScreen, #gameScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+canvas {
+    background: url('background.png') no-repeat center center;
+    background-size: cover;
+    border: 1px solid #000;
+}
